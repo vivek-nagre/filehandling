@@ -3,9 +3,13 @@ import java.util.Scanner;
 public class console_del {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int n=0;
         
-         String name = sc.next();
-         int age = sc.nextInt();
+        System.out.print("name:");
+        String name = sc.next();
+        System.out.print("\nage:");
+        int age = sc.nextInt();
+        System.out.print("\ncity:");
          String city = sc.next();
         
         System.out.print("name\t|\tage\t|\tcity\t|");
