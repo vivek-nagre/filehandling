@@ -10,24 +10,24 @@ public class fileW {
         try {
             Writer pw = new FileWriter("./vivek.txt");
             int counter = 0;
-            pw.write("NMAE\t|\tAge\t\t|\tCity\t|");
+            pw.write("Sr_NO\t|NMAE\t|\tAge\t\t|\tCity\t|");
             pw.write("\n------------------------------------------------------");
 
             // String name = sc.next();
             // int age = sc.nextInt();
             // String city = sc.next();
-            for (int i = 0; i < 5; i++) {
-                System.out.print("name:");
+            for (int i = 1; i < 6; i++) {
+                System.out.print("name:")2;
                 String name = sc.next();
                 System.out.print("age:");
                 int age = sc.nextInt();
                 System.out.print("city:");
                 String city = sc.next();
                 System.out.println();
-                
-                pw.write("\n" + name + "\t|");
+                pw.write("\n"+i+ "\t|");
+                pw.write("\t"+name + "\t|");
                 pw.write("\t" + age + "\t\t|");
-                pw.write("\t" + city + "\t\t|");
+                pw.write("\t" + city + "\t|");
             }
 
 

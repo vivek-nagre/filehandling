@@ -1,7 +1,7 @@
-NMAE	|	Age		|	City	|
+Sr_NO	|NMAE	|	Age		|	City	|
 ------------------------------------------------------
-vivek	|	23		|	d.raja		|
-gokul	|	24		|	rajur		|
-shivaji	|	22		|	a.bad		|
-raps	|	27		|	kannad		|
-tushar	|	25		|	hingoli		|
+1	|	vivek	|	23		|	d.raja	|
+2	|	shivaji	|	22		|	a.bad	|
+3	|	gokul	|	24		|	jalna	|
+4	|	raps	|	25		|	kannad	|
+5	|	tushar	|	25		|	hingoli	|
