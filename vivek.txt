@@ -1,0 +1,7 @@
+NMAE	|	Age		|	City	|
+------------------------------------------------------
+vivek	|	23		|	d.raja		|
+gokul	|	24		|	rajur		|
+shivaji	|	22		|	a.bad		|
+raps	|	27		|	kannad		|
+tushar	|	25		|	hingoli		|
