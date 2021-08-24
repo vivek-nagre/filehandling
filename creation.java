@@ -4,15 +4,19 @@ import java.io.IOException;
 public class creation {
     public static void main(String[] args) {
         File file = new File("./vivek.txt");
-        if (file.isFile()) {
-            System.out.println("file alredy presnt");
-        } else {
-            System.out.println("file not found");
-
-        }
-
         try {
+            FileWriter pw = new FileWriter(file);
+            pw.append("vivek");
+
             boolean result = file.createNewFile();
+
+            if (result) {
+                // pw.println("name\t|\tage|\tcity|");
+
+                pw.write("vivek");
+                pw.close();
+                System.out.println("execution done successfully");
+            }
 
             System.out.println("file is  :" + file.getName());
 
@@ -26,6 +30,7 @@ public class creation {
         } catch (IOException e) {
             System.out.println(e);
         }
+        System.out.println("success");
 
     }
 
