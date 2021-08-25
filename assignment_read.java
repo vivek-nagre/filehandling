@@ -14,8 +14,9 @@ public class assignment_read {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String st;
 
-            // while (st!=null)
+
             while ((st = br.readLine()) != null) {
+                
                 System.out.println(st);
             }
 
@@ -26,13 +27,10 @@ public class assignment_read {
 
             String fileNo = Files.readAllLines(Paths.get("./vivek.txt")).get(update + 1);
             System.out.print("enter your cureent data :");
-            String current_data=sc.next();
+            String current_data = sc.next();
             System.out.print("enter your modification:");
-            String modification=sc.next();
+            String modification = sc.next();
             System.out.println(fileNo.replace(current_data, modification));
-
-
- 
 
         } catch (IOException e) {
             System.out.println(e);
