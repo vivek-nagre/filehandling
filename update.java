@@ -6,7 +6,7 @@ public class update {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("hashmap contaion key as unique number and value as list wich contaion important data");
-        List<String> value_list = new ArrayList<>();
+        ArrayList<String> value_list = new ArrayList<>();
 
         HashMap<Integer, List<String>> keyV = new HashMap<>();
         List<String> list1 = new ArrayList<String>();
