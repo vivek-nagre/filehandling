@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 public class update {
@@ -7,7 +8,7 @@ public class update {
         Scanner sc=new Scanner(System.in);
         System.out.println("hashmap contaion key as unique number and value as list wich contaion important data");
         ArrayList<String> value_list = new ArrayList<>();
-
+        
         HashMap<Integer, List<String>> keyV = new HashMap<>();
         List<String> list1 = new ArrayList<String>();
         for (int i = 1; i <= 2; i++) {
@@ -22,6 +23,7 @@ public class update {
             list1.add(city);
             keyV.put(i, list1);
             System.out.println();
+            
             
         }
         System.out.println(keyV);
