@@ -8,34 +8,30 @@ public class bank {
             System.out.println();
             System.out.println("1)check balance\n2)deposite\n3)withdraw\n4)register new user\n5)exit");
             System.out.print("enter what you want to do:");
-            int action=sc.nextInt();
-
-            if (action==1) {
+            int action = sc.nextInt();
+            System.out.println();
+            if (action == 1) {
                 fn.checkBalance();
 
-            }
-            else if(action==2){
+            } else if (action == 2) {
                 System.out.print("enter deposite amount:");
-                int amount=sc.nextInt();
+                int amount = sc.nextInt();
                 fn.deposite(amount);
-            }
-            else if(action==3){
+            } else if (action == 3) {
                 System.out.print("enter withdrawal:");
-                int amount=sc.nextInt();
+                int amount = sc.nextInt();
                 fn.withdraw(amount);
-            }
-            else if(action==4){
+            } else if (action == 4) {
                 System.out.println("thanks for choosing us.......");
                 fn.registration();
             }
-            
-            else if(action==5){
+
+            else if (action == 5) {
                 System.out.println("thanks for banking with us".toUpperCase());
                 break;
             }
 
         }
-
 
     }
 
@@ -52,7 +48,7 @@ class functionality {
         System.out.print("account number:".toUpperCase());
         long account_number = sc.nextLong();
         System.out.print("address:");
-        String address=sc.next();
+        String address = sc.next();
         System.out.println("user regitration sucessfully...!".toUpperCase());
 
     }
@@ -63,7 +59,6 @@ class functionality {
 
     void deposite(int amount) {
 
-        System.out.print("enter amaount you want to deposite into your account:");
         CurrentBalance += amount;
         System.out.println("your current balance is :" + CurrentBalance);
     }
