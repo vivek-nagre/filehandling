@@ -9,9 +9,9 @@ public class fileW {
         Scanner sc = new Scanner(System.in);
         try {
             Writer pw = new FileWriter("./vivek.txt");
-            int counter = 0;
+            
             pw.write("Sr_NO\t|NMAE\t|\tAge\t\t|\tCity\t|");
-            pw.write("\n------------------------------------------------------");
+            pw.write("\n-----------------------------------------------");
             for (int i = 1; i < 6; i++) {
                 // take input form user 
                 System.out.print("name:");
